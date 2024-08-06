@@ -1,0 +1,160 @@
+ *{ text-decoration: none;
+} 
+
+
+body {
+    flex:3 1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+    
+}
+
+header {
+    background-color: lightgreen;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+     text-decoration: none; 
+}
+
+nav button {
+    background-color: beige;
+    border: none;
+    color: black;
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+   text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: auto;
+    flex: 3 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+aside {
+    flex: 1 3;
+    flex-direction: row-reverse;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+aside {
+    flex: 1 3;
+    width: 200px;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+aside img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+aside .profile {    
+    text-align: center;
+}
+
+
+.profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    flex: 3 1;
+    padding: 10px;
+    ;
+}
+
+.content img {
+    
+    max-width: 100%;
+    height: auto;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+.images img {
+    width: 32%;
+    border: 2px solid #ddd;
+    border-radius: 5px;}
+.images {
+       display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+img{ text-align: center;}
+    
+.special{justify-content: center;}  
+
+.form { 
+    
+    display:flex;
+    flex-direction: column;
+    align-items: flex;
+    width:100%; 
+    padding-top: 20px;
+    padding-left: 20px;
+    
+  }
+  
+   
+  input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+@media (max-width: 480px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav button {
+        margin: 5px 0;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    aside {
+        display: none;
+    }
+}
