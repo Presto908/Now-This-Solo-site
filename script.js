@@ -20,14 +20,14 @@ const sidebarHTML = `
     </div>
     <ul class="navigation">
    <p>  Ratatoullie</p>
-    <a href="_blank"><img src= "imgs/Ratatoli.jpeg" alt="Ratatoulie"></a></P><br>
+    <a href="building.html"><img src= "imgs/Ratatoli.jpeg" alt="Ratatoulie"></a></P><br>
     <p> Stuffed Peppers</p>
     <a href="_blank" ><img src= "imgs/Stuffed Peppers.jpeg" alt="Ratatoulie"></a></P><br>
     <p>  Cupcakes </p>
-    <a href="_blank" ><img src="imgs/Cupcake.jpg" alt="Chocolate Cake"></a></P><br>   
+    <a href="building.html" ><img src="imgs/Cupcake.jpg" alt="Chocolate Cake"></a></P><br>   
           
     <a href="order.html" style="font-size: 1em">Order our Brand of Spices</a>
-    <a href="_blank"><img src="imgs/Spices.jpg" alt="Chocolate Cake"></a></P><br>
+    <a href="building.html"><img src="imgs/Spices.jpg" alt="Chocolate Cake"></a></P><br>
         
     </ul>
 `;
